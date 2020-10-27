@@ -1,0 +1,97 @@
+body {
+    background-color: #A0DE54;
+}
+
+.login {
+    background-color: rgb(41, 145, 243);
+    width: 40%;
+    border-radius: 5px;
+    animation-name: aparecer;
+    animation-duration: 4s;
+    color:white;
+    box-shadow: 20px 10px 10px #ccc;
+    padding: 25px 30px 25px 60px;
+    margin:auto;
+}
+
+@keyframes aparecer{
+    from{ 
+        opacity: 0;
+        background-color: rgb(217, 231, 245);
+        width: 0%;
+    }
+    to{
+        opacity: 1;
+        background-color: rgb(41, 145, 243);
+        width: 40%;
+    }
+}
+table {
+    background-position: center;
+    width: 50%;
+    border-collapse: collapse;
+    margin:auto;
+}
+th,td{
+    text-align: center;
+    margin:8px;
+}
+th{
+    background-color: rgb(240, 12, 164);
+    color:white;
+}
+tr:nth-child(even){
+    background-color: rgb(221, 97, 180);
+}
+
+input[type=button]{
+    width: 240px;
+    height: 40px;
+    background-color: rgb(3, 2, 59);
+    color:white;
+    
+}
+.sinerror{
+    border: 1px solid #ccc;
+}
+
+.conerror{
+    border: 1px solid rgb(226, 29, 29);
+}
+
+#Abrir img {
+   width: 20%;
+   
+}
+#Abrir img:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+.sinerror{
+    width:90%;
+}
+.boton{
+    width:20px;
+    height:20px;
+    background-color:#5a4d4d;
+    margin:6px;
+    padding:8px;
+    border-radius: 50px;
+    font-size:25px;
+    line-height:25px;
+    text-transform: uppercase;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+    position:relative ;
+    right:20px;
+    margin-top: 2px;
+}
+  .boton:hover{
+    opacity: 0.50;
+  }
+  .boton a{
+    color:#fff;
+    text-decoration:none;
+    padding:5px 5px 5px 0;
+}

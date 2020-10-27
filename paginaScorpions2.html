@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paginaScorpions2</title>
+    <script type="text/javascript" src="./js/paginaScorpions2.js">
+    </script>
+    <link rel="stylesheet" href="./css/paginaScorpions2.css">
+
+<script>
+</script>
+</head>
+<div class="boton"><a href="./paginaScorpions.html">X</a></div>
+<div id="contenedor">
+<body class="body2">
+    <form>
+        <label>Nombre:</label><br>
+        <input class="item" type="text" placeholder="tu Nombre" id="txtnombre" size="40"><br/><br/>
+        <label>Apellido:</label><br>
+        <input class="item" type="text" placeholder="tu Apellido" id="txtapellido" size="40"><br/><br/>
+        <label>Telefono:</label><br>
+        <input class="item" type="number" placeholder="tu Telefono" id="txttelefono" size="40"><br/><br/>
+        <label>Correo:</label><br>
+        <input class="item" type="email" placeholder="tu Mail" id="txtcorreo" size="40"><br/><br/>
+        <label>Ocupacion:</label><br>
+        <select name="ocupalista" id="button" size="1" class="item">
+            <option value=“1”> <label>Comerciante</label> </option>
+            <option value=“2” selected > <label>Estudiante</label> </option>
+            <option value=“3” selected > <label>Particular</label> </option>
+        </select><br/><br/>
+        <input type="radio" id="rdDoc" name="rdDoc" checked value="1"/> <Label>IMPRENTA</Label>
+        <input type="radio" id="rdDoc" name="rdDoc" value="2"> <Label>FOTOCOPIAS</Label><br>
+        <input type="radio" id="rdDoc" name="rdDoc" value="2"> <Label>TARJETERIA</Label><br>
+        <input type="radio" id="rdDoc" name="rdDoc" value="3"> <Label>CARTELERIA</Label>
+        <input type="radio" id="rdDoc" name="rdDoc" value="3"> <Label>OTRO</Label>
+        <input type="text" placeholder="TRABAJO" class="itemA"><br/><br/>
+        <label for="">Password:</label><br>
+        <input class="item" type="password" placeholder="tu contraseña" id="txtcontraseña" size="30">
+        <br/>
+        <br/>
+        <label>Repetir Password:</label><br>
+        <input class="item" type="password" placeholder="repetir contraseña" id="txtcontraseñabis" size="30">
+        <br/>
+        <br/>
+        <input type="radio" id="rdDoc" name="rdDoc" checked value="1"/> <Label>DNI</Label>
+        <input type="radio" id="rdDoc" name="rdDoc" value="2"> <Label>CUIT/L</Label>
+        <input type="radio" id="rdDoc" name="rdDoc" value="3"> <Label>Otro</Label>
+        <input class="itemA" type="text" placeholder="Documento">
+        <br/>
+        <br/>
+        <label>Sexo:</label><br>
+        <select class="item" name="sexlista" id="button" size="1" >
+            <option value=“1”> <label>Masculino</label> </option>
+            <option value=“2” selected > <label>Femenino</label> </option>
+        </select>
+        <br/> 
+        <br/>
+        <input type="button" id="btnregistrar" onclick="validar()" value="Registrar">   
+        <input type="reset" id="btncancelar" onclick="cancelar()" value="Cancelar"> 
+    </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,497 @@
+.name, .names{
+    margin:0 auto;
+    padding: 50px 10px 30px 20px;
+    color: white;
+    border-radius: 10px;
+    border-width: 50px;
+    line-height: 80px;
+    text-shadow:5px 5px 5px rgb(134, 201, 240) ;
+    letter-spacing: 1px;
+    
+}
+ .name{
+    font-family:'Dancing Script', cursive;
+    font-size:3rem ;  
+    
+ }
+ .names {
+    font-family:'Oxygen', sans-serif;
+    font-size:1.2rem ;
+    padding: 30px 20px 30px 20px; 
+    
+ }
+ 
+.container {
+    width: 70%;
+    margin:0 auto;
+    background-color: black;
+    position:relative;
+    border-radius: 10px;
+    height: 160px;
+    max-width: 1100px;
+}
+.marquee{
+    width: 98%;
+    margin:0 2px auto;
+    background-color: rgb(14, 10, 241);
+    color: white;
+    font-size: 1.rem;
+    font-family:'Lobster',cursive;
+    text-shadow: rgb(17, 8, 15) 5px 5px 8px;
+    position:relative;
+    letter-spacing: 3px;
+    word-spacing:20px;
+    display: flex;
+    top:30px;
+    
+}
+.foto {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-left: 14.6%;
+}
+
+.service{
+    width: 320px;
+    height:240px;
+}
+
+
+.logo-titulo{
+    display:flex;
+    position: relative;
+    bottom: 31px;
+}
+.logo-titulo img{
+    width: 190px;
+    height: 180px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.navigator{
+	/*background: #cf186e;*/
+	width: 100%;
+	max-width: 1080px;
+    /*border-radius: 10px;*/
+    margin: auto;
+    padding: 0.5%;
+    text-shadow:  rgb(17, 8, 15) 2px 2px 5px;
+}
+.navigator ul{
+    list-style:none;
+    
+}
+.menu_celda{
+    background-color: rgb(58, 168, 58);
+    padding: 20%;
+    border-radius: 30% 0% 30% 0%;
+    box-shadow: black 2px 2px 5px;
+} 
+.navigator .submenu {
+    background-color: rgb(58, 168, 58,1);
+    text-align: center;
+    line-height: 150%;
+    margin: 0 auto;
+}
+
+
+.menu{
+    font-family: 'Oxygen', sans-serif;
+    font-size:1rem ;
+    letter-spacing: 2.1px;
+    word-spacing:30px;
+    padding: 6px 10px;
+    margin: auto ;
+    text-align: center;
+    width:100%;
+    max-width: 1100px;
+}
+.submenu{
+    z-index: 30;
+    position: fixed;
+    text-align: center;
+    max-width: 100px;
+     
+ }
+
+.menu > li > a{
+	text-decoration: none;
+	color:rgb(250, 250, 250);
+	padding: 8.1px;
+    display: block;
+    margin: auto;
+}
+
+.menu >li{
+	display: inline-block;
+    text-align: center;
+    position:relative;
+}
+
+.menu li a:hover{
+    background: #e0de40;
+    color:rgb(53, 48, 48);
+    transition: all 2s;
+    text-align: center;
+}
+
+
+body {
+    background-color: #A0DE54;
+    margin-top: 0%;
+}
+
+body a:hover,
+body a:link {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.submenu {
+    position: absolute;
+    
+    display:none;
+}
+
+.navigator ul .submenu li a {
+    margin: auto;
+    
+}
+
+.submenu li a {
+    display:block;
+    margin: auto;
+    color:white;
+    font-family: 'Oxygen', sans-serif;
+    text-decoration:none;
+    font-size: 0.8rem;
+}
+.menu li:hover.submenu{
+    display:block;
+    
+}
+
+.menu li:hover .submenu{
+display: block;
+}
+.service:hover{
+    display: block;
+}
+/*.main{
+position: relative;
+top: -610px;
+right: 250px;
+color: rgb(218, 175, 36);
+font-size: 1.6rem;
+text-shadow: 2px 3px 1px #070104;
+font-family: 'Oxygen', sans-serif;
+text-align: right;
+
+}*/
+
+
+
+#panel,#panel2,#panel3 {
+    display: none;
+  }
+  
+  .flip{
+      display: inline;
+      justify-content: space-around;
+      cursor: pointer; 
+      position: relative;
+      top:-300px;
+      left:220px;
+      padding: 0.40%;
+      
+      
+      
+  }
+  #panel {
+  background-color: rgb(240, 59, 128);
+  width: 100%;
+  animation-name: aparecer1;
+  animation-duration: 2s;
+  box-sizing: border-box;
+  padding: 3%;
+  line-height: 150%;
+  color:white;
+  position: relative;
+  top:-298px;
+  left: 220px;
+  max-width: 1049px;
+  text-align: justify;
+  max-height: 605px;
+  }
+  
+  @keyframes aparecer1{
+from{ 
+  opacity: 0;
+  background-color: rgb(221, 189, 206);
+  width: 20%;
+}
+to{
+  opacity: 1;
+  background-color: rgb(240, 59, 128);
+  width: 105%;
+}
+}
+  #panel2 {
+      background-color: rgb(245, 245, 49);
+      width: 100%;
+      max-width: 1049px;
+      box-sizing: border-box;
+      padding: 3%;
+      line-height: 150%;
+      animation-name: aparecer2;
+      animation-duration: 2s;
+      position: relative;
+      top:-298px;
+      left: 220px;
+      text-align: justify;
+      max-height: 605px;
+  }
+  #panel3{
+      background-color:  rgb(41, 145, 243);
+      width: 105%;
+      padding: 3%;
+      box-sizing: border-box;
+      line-height: 150%;
+      animation-name: aparecer3;
+      animation-duration: 2s;
+      position: relative;
+      top:-298px;
+      left: 220px;
+      max-width: 1049px;
+      text-align: justify;
+      max-height: 605px;
+  }
+  .dd_cart-imprenta span{
+      background-color:rgb(245, 245, 49);
+      width: 76%;
+      padding: 0.5%;
+      color:black;
+      
+  }
+  .dd_carteleria span{
+      background-color: rgb(240, 59, 128);
+      color:white;
+      width: 76%;
+      padding: 0.5%;
+      
+  }
+  .dd_cont_insumos span{
+      background-color: black;
+      color: rgb(245, 245, 49);
+      width: 76%;
+      padding: 0.5%;
+  }
+  @keyframes aparecer2{
+from{ 
+  opacity: 0;
+  background-color: rgb(238, 237, 176);
+  width: 20%;
+}
+to{
+  opacity: 1;
+  background-color: rgb(245, 245, 49);
+  width: 105%;
+}
+}
+@keyframes aparecer3{
+from{ 
+  opacity: 0;
+  background-color: rgb(137, 213, 223);
+  width: 20%;
+}
+to{
+  opacity: 1;
+  background-color: rgb(73, 164, 250);
+  width: 105%;
+}
+}
+.t1_magenta strong {
+background: black;
+box-sizing: border-box;
+padding: 0.9%;
+line-height: 250%;
+font-size: 135%;
+}
+.t2_magenta strong {
+background: black;
+box-sizing: border-box;
+padding: 0.9%;
+line-height: 250%;
+font-size: 135%;
+
+}
+.t1_amarillo strong {
+background: black;
+color:white;
+box-sizing: border-box;
+padding: 0.9%;
+line-height: 250%;
+font-size: 135%;
+}
+.t2_amarillo strong {
+background: black;
+color:white;
+box-sizing: border-box;
+padding: 0.9%;
+line-height: 250%;
+font-size: 135%;
+}
+.t1_cyan strong {
+background: black;
+color:white;
+box-sizing: border-box;
+padding: 0.9%;
+line-height: 250%;
+font-size: 135%;
+}
+.t2_cyan strong {
+background: black;
+color:white;
+box-sizing: border-box;
+padding: 0.9%;
+line-height: 250%;
+font-size: 135%;
+}
+.t1_magenta, .t1_amarillo, .t1_cyan{
+    position: relative;
+    left: 20rem;
+}
+.t2_magenta, .t2_amarillo,.t2_cyan{
+    position: relative;
+    left: 26rem;
+}
+.dd_cont_magenta, .dd_cont_amarillo, .dd_cont_cyan{
+    display: flex;
+    justify-content: center;
+}
+
+   
+
+.dd_cart-imprenta p, .dd_carteleria p, .dd_cont_insumos p{
+    font-size:0.75rem ;
+    margin-right: 8%;
+    max-width: 800px;
+    text-align: justify;
+}
+.image_magenta, .image_amarillo, .image_cyan{
+    height: 78vh;
+    width: 90%;
+    position: relative;
+    margin-left: 5%;
+    box-sizing: border-box;
+    bottom: 150px;
+    padding:6%;
+   
+}
+footer{
+    background-color:black;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.cambio {
+    
+    animation-name: aparecer;
+    animation-duration: 5s;
+}
+
+#carrousel{
+    position: relative;
+    left: 231px;
+    max-width: 1027px;
+    display: flex;
+    background-color:black;
+    box-shadow: black 5px 2px 5px 5px;
+    
+}
+
+@keyframes aparecer {
+from{
+    opacity:0;
+}
+to {
+    opacity:1;
+}
+}
+
+.text_img{
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    background: rgb(0,0,0);
+    background: rgba(0,0,0,0.5); 
+    padding: 10px;
+    text-shadow: black 0px 2px 2px 5px;
+    margin-left: 10px;
+}
+.img_digital{
+    width: 540px; 
+    height: 325px;
+    display: flex;
+    left: 280px;
+    position: relative;
+    bottom: 400px;
+    box-shadow: (0,0,0,0.5);
+    
+}
+    .text_digital{
+    display: flex;
+    left: 280px;
+    bottom: 300px;
+    position: absolute; 
+    top: 330px; 
+    left: 280px; 
+    width: 350px; 
+    height: 120px;
+    }
+
+.img_actividades{
+    position: relative;
+    width: 600px; 
+    height: 520px;
+    bottom:280px;
+    right:-650px;
+}
+#pie{
+    
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin-left:100px;
+}
+.foot_ul li a {
+    color:white;
+}
+.foot_firm{
+    text-align: center;
+    color:white;
+}
+.foot_link{
+   
+    color:white;
+}
+.foot_red{
+    position: relative;
+    margin-left: 1100px;
+    margin-top: -200px;
+}
+.img_redes{
+    display: flex;
+    justify-content: center;
+    max-height: 5px;
+}
+.font-white{
+    color:white;
+}
+#social_icons{
+    cursor:pointer;
+   
+}

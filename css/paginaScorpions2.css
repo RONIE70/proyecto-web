@@ -1,0 +1,74 @@
+.body2 {
+    background-color: #A0DE54;
+    }
+#btnregistrar,#button,#btncancelar {
+    background-color: #1612e9;
+    color: white;
+    font-size:15pt ;
+    border-radius: 5px;
+    margin: 8px 8px;
+    cursor: pointer;
+    padding:5px;
+    box-shadow: 0px 3px 3px  #fff;
+}
+div {
+    font-size: 18pt;
+    font-family: verdana;auto
+}
+form{
+    margin: 0 auto;
+    width: 500px;
+    background-color: rgb(260, 90, 185); 
+    padding: 25px 15px 10px 20px;
+    border-radius:8px;
+    box-shadow: 15px 15px rgba(0,0,0,.5);
+    
+}
+
+.item,input,.itemA{
+    padding:10px;
+    border-color:0;
+    outline:none;
+    border-radius: 5px;
+}
+#btnregistrar,#btncancelar{
+    width: 225px;
+}
+.item:focus{
+    border-color: rgb(50, 104, 205);
+}
+.item{
+    width: 458px;
+}
+#button{
+    width: 472px;
+}
+.boton{
+    width:20px;
+    height:20px;
+    background-color:#5a4d4d;
+    margin:6px;
+    padding:8px;
+    border-radius: 50px;
+    font-size:25px;
+    line-height:25px;
+    text-transform: uppercase;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+    position:relative ;
+    right:390px;
+    margin-top: -2px;
+}
+  .boton:hover{
+    opacity: 0.50;
+}
+  .boton a{
+    color:#fff;
+    text-decoration:none;
+    padding:5px 5px 5px 0;
+}
+
+body {
+    background-color: #A0DE54;
+}

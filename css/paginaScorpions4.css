@@ -1,0 +1,74 @@
+.logo-titulo{
+    display:flex;
+    position: relative;
+    bottom: 31px;
+}
+.logo-titulo img{
+    width: 190px;
+    height: 180px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+body {
+    background-color: #A0DE54;
+    margin-top: 0%;
+}
+.name, .names{
+    margin:0 auto;
+    padding: 50px 10px 30px 20px;
+    color: white;
+    border-radius: 10px;
+    border-width: 50px;
+    line-height: 80px;
+    text-shadow:5px 5px 5px rgb(134, 201, 240) ;
+    letter-spacing: 1px;
+}
+ .name{
+    font-family:'Dancing Script', cursive;
+    font-size:2.2rem ;  
+     
+ }
+ .names {
+    font-family:'Oxygen', sans-serif;
+    font-size:1rem ;
+    padding: 30px 20px 30px 20px; 
+ }
+.container {
+    width: 70%;
+    margin:0 auto;
+    background-color: black;
+    position:relative;
+    border-radius: 10px;
+    height: 160px;
+    max-width: 1100px;
+    padding: 0.3rem;
+}
+.video{
+    width: 85%;
+    position: relative;
+    margin-left: 7%;
+    box-sizing: border-box;
+    padding-top: 3%;
+    box-shadow: 0rem 1.5rem 1.5rem 0rem;
+  
+}
+.nosotros p{
+    font-family:'Oxygen', sans-serif;
+    font-size:0.72rem ;
+    margin-right: 8%;
+    max-width: 500px;
+    text-align: justify;
+    
+}
+#cont_nosotros{
+display:flex;
+background-color: rgb(85, 223, 223);
+max-width: 938px;
+margin:auto;
+height: 100vh;
+box-sizing: border-box;
+padding: 0.5rem;
+justify-content: space-around;
+max-height: 500px;
+
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>graficascorpions3</title>
+    <link rel="stylesheet" href="./css/paginaScorpions3.css">
+    
+    <script type="text/javascript" src="./js/paginaScorpions3.js">
+     </script>
+     <img src="#" alt="">
+</head>
+
+<body>
+
+<p id="Abrir" onclick="abrirlogin()"><img src="img/logo-3.png"></p><br>
+<div class= "login" id="loginPer" hidden=true> 
+<div class="boton"><a href="./paginaScorpions.html">X</a></div>
+<h1>Registro Cliente</h1>
+<label>Nombre</label><br>
+<input class="sinerror" type="text" id="Nombre" placeholder="Juan"><br><br>
+<label>Apellido</label><br>
+<input class="sinerror" type="text" id="Apellido" placeholder="Perez"><br><br>
+<label>Telefono</label><br>
+<input class="sinerror" type="number" id="Telefono" placeholder="1555531234"><br><br>
+<label>Edad</label><br>
+<input class="sinerror" type="number" id="Edad" placeholder="33"><br><br> 
+<input type="button" value="Cerrar" id="cerrar" onclick="cerrarlogin()">    
+<input type="button" value="Guardar" id="guardar" onclick="validarForm()"><br><br> 
+<h3 id="respon">Te responderemos a la brevedad, gracias...</h3> 
+</div>
+<h2 id="sumate">SUMATE A NUESTRA LISTA...</h2>   
+
+<table>
+<thead>
+    <th>Nombre</th>   
+    <th>Apellido</th>
+    <th>Telefono</th>
+    <th>Edad</th>
+</thead>
+    <tbody id="tbody">
+    </tbody>
+    </table>
+<p id="parraMayores">Su numero de REGISTRO es: 0</p>
+     
+</body>
+    
+
+</html>
