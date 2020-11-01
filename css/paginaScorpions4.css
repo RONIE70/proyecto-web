@@ -63,7 +63,7 @@ body {
 #cont_nosotros{
 display:flex;
 background-color: rgb(85, 223, 223);
-max-width: 938px;
+max-width: 70%;
 margin:auto;
 height: 100vh;
 box-sizing: border-box;
@@ -71,4 +71,11 @@ padding: 0.5rem;
 justify-content: space-around;
 max-height: 500px;
 
+}
+
+.flecha_vuelta{
+    width: 10%;
+    position: relative;
+    bottom: 100px;
+    right: -700px;
 }

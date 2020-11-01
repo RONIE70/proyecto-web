@@ -30,21 +30,7 @@
     height: 160px;
     max-width: 1100px;
 }
-.marquee{
-    width: 98%;
-    margin:0 2px auto;
-    background-color: rgb(14, 10, 241);
-    color: white;
-    font-size: 1.rem;
-    font-family:'Lobster',cursive;
-    text-shadow: rgb(17, 8, 15) 5px 5px 8px;
-    position:relative;
-    letter-spacing: 3px;
-    word-spacing:20px;
-    display: flex;
-    top:30px;
-    
-}
+
 .foto {
     width: 100%;
     max-width: 1000px;
@@ -71,10 +57,9 @@
 }
 
 .navigator{
-	/*background: #cf186e;*/
+	
 	width: 100%;
 	max-width: 1080px;
-    /*border-radius: 10px;*/
     margin: auto;
     padding: 0.5%;
     text-shadow:  rgb(17, 8, 15) 2px 2px 5px;
@@ -92,8 +77,10 @@
 .navigator .submenu {
     background-color: rgb(58, 168, 58,1);
     text-align: center;
-    line-height: 150%;
-    margin: 0 auto;
+    line-height: 230%;
+    margin: 0;
+    padding:0;
+    width:150px;
 }
 
 
@@ -112,7 +99,7 @@
     z-index: 30;
     position: fixed;
     text-align: center;
-    max-width: 100px;
+   
      
  }
 
@@ -180,18 +167,6 @@ display: block;
 .service:hover{
     display: block;
 }
-/*.main{
-position: relative;
-top: -610px;
-right: 250px;
-color: rgb(218, 175, 36);
-font-size: 1.6rem;
-text-shadow: 2px 3px 1px #070104;
-font-family: 'Oxygen', sans-serif;
-text-align: right;
-
-}*/
-
 
 
 #panel,#panel2,#panel3 {
@@ -204,27 +179,28 @@ text-align: right;
       cursor: pointer; 
       position: relative;
       top:-300px;
-      left:220px;
+      left:14%;
       padding: 0.40%;
-      
-      
-      
-  }
+}
+
+.img_flip{
+    width:22.7%;
+}
   #panel {
   background-color: rgb(240, 59, 128);
   width: 100%;
   animation-name: aparecer1;
   animation-duration: 2s;
   box-sizing: border-box;
-  padding: 3%;
+  padding: 5%;
   line-height: 150%;
   color:white;
   position: relative;
   top:-298px;
-  left: 220px;
-  max-width: 1049px;
+  left: 15%;
+  max-width:70%;
   text-align: justify;
-  max-height: 605px;
+  max-height: 555px;
   }
   
   @keyframes aparecer1{
@@ -242,32 +218,32 @@ to{
   #panel2 {
       background-color: rgb(245, 245, 49);
       width: 100%;
-      max-width: 1049px;
+      max-width: 70%;
       box-sizing: border-box;
-      padding: 3%;
+      padding: 5%;
       line-height: 150%;
       animation-name: aparecer2;
       animation-duration: 2s;
       position: relative;
       top:-298px;
-      left: 220px;
+      left: 15%;
       text-align: justify;
-      max-height: 605px;
+      max-height: 545px;
   }
   #panel3{
       background-color:  rgb(41, 145, 243);
       width: 105%;
-      padding: 3%;
+      padding: 5%;
       box-sizing: border-box;
       line-height: 150%;
       animation-name: aparecer3;
       animation-duration: 2s;
       position: relative;
       top:-298px;
-      left: 220px;
-      max-width: 1049px;
+      left: 15%;
+      max-width: 70%;
       text-align: justify;
-      max-height: 605px;
+      max-height: 505px;
   }
   .dd_cart-imprenta span{
       background-color:rgb(245, 245, 49);
@@ -393,8 +369,10 @@ font-size: 135%;
 }
 footer{
     background-color:black;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
+    position: relative;
+    top:50%;
 }
 
 .cambio {
@@ -405,12 +383,16 @@ footer{
 
 #carrousel{
     position: relative;
-    left: 231px;
-    max-width: 1027px;
+    left: 15%;
+    max-width:69%;
     display: flex;
     background-color:black;
     box-shadow: black 5px 2px 5px 5px;
     
+}
+.foto_carro{
+    width: 100%;
+    height: 100%;
 }
 
 @keyframes aparecer {
@@ -438,7 +420,7 @@ to {
     display: flex;
     left: 280px;
     position: relative;
-    bottom: 400px;
+    bottom: 390px;
     box-shadow: (0,0,0,0.5);
     
 }
@@ -447,7 +429,7 @@ to {
     left: 280px;
     bottom: 300px;
     position: absolute; 
-    top: 330px; 
+    top: 300px; 
     left: 280px; 
     width: 350px; 
     height: 120px;
@@ -455,10 +437,10 @@ to {
 
 .img_actividades{
     position: relative;
-    width: 600px; 
-    height: 520px;
+    width: 500px; 
+    height: 420px;
     bottom:280px;
-    right:-650px;
+    right:-608px;
 }
 #pie{
     
@@ -495,3 +477,19 @@ to {
     cursor:pointer;
    
 }
+#social_icons li a:hover{
+    opacity: 0.50;
+   
+}
+
+#nuevos_equipos{
+    left:5%;
+    position: relative;
+    bottom:690px;
+    
+}
+.equipo_flip{
+    max-height: 800px;
+}
+
+ 
