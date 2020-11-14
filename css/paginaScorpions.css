@@ -31,18 +31,6 @@
     max-width: 1100px;
 }
 
-.foto {
-    width: 100%;
-    max-width: 1000px;
-    margin: auto;
-    margin-left: 14.6%;
-}
-
-.service{
-    width: 320px;
-    height:240px;
-}
-
 
 .logo-titulo{
     display:flex;
@@ -57,7 +45,7 @@
 }
 
 .navigator{
-	
+	color:white;
 	width: 100%;
 	max-width: 1080px;
     margin: auto;
@@ -163,9 +151,6 @@ body a:link {
 
 .menu li:hover .submenu{
 display: block;
-}
-.service:hover{
-    display: block;
 }
 
 
@@ -372,7 +357,7 @@ footer{
     max-width: 1000px;
     margin: auto;
     position: relative;
-    top:50%;
+    top:69%;
 }
 
 .cambio {
