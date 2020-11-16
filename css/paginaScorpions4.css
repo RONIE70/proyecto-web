@@ -153,26 +153,7 @@ body {
     background-color: #A0DE54;
     margin-top: 0%;
 }
-.name, .names{
-    margin:0 auto;
-    padding: 50px 10px 30px 20px;
-    color: white;
-    border-radius: 10px;
-    border-width: 50px;
-    line-height: 80px;
-    text-shadow:5px 5px 5px rgb(134, 201, 240) ;
-    letter-spacing: 1px;
-}
- .name{
-    font-family:'Dancing Script', cursive;
-    font-size:2.2rem ;  
-     
- }
- .names {
-    font-family:'Oxygen', sans-serif;
-    font-size:1rem ;
-    padding: 30px 20px 30px 20px; 
- }
+
 .container {
     width: 70%;
     margin:0 auto;
@@ -219,4 +200,55 @@ line-height: 20px;
     position: relative;
     bottom: 130px;
     right: -900px;
+}
+
+footer{
+    background-color:black;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+#pie{
+display: flex;
+justify-content: space-around;
+max-width: 1000px;
+margin:auto;
+}
+.foot_ul li a {
+color:white;
+}
+.foot_firm{
+text-align: center;
+color:white;
+}
+.foot_link{
+
+color:white;
+}
+.foot_red{
+position: relative;
+margin-left: 1100px;
+margin-top: -200px;
+}
+.img_redes{
+display: flex;
+justify-content: center;
+max-height: 5px;
+}
+.font-white{
+color:white;
+}
+#social_icons{
+cursor:pointer;
+
+}
+#social_icons li a:hover{
+opacity: 0.50;
+
+}
+#body_activ{
+display:flex;
+justify-content:center;
+height: 550px;
+
 }

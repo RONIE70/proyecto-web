@@ -153,8 +153,8 @@ display: block;
     padding:5px;
     box-shadow: 0px 3px 3px  #fff;
 }
-div {
-    font-size: 18pt;
+#contenedor {
+    font-size: 1.2rem;
     font-family: verdana;auto
 }
 form{
@@ -211,6 +211,55 @@ form{
     padding:5px 5px 5px 0;
 }
 
-body {
-    background-color: #A0DE54;
+
+
+footer{
+    background-color:black;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+#pie{
+display: flex;
+justify-content: space-around;
+max-width: 1000px;
+margin:auto;
+}
+.foot_ul li a {
+color:white;
+}
+.foot_firm{
+text-align: center;
+color:white;
+}
+.foot_link{
+
+color:white;
+}
+.foot_red{
+position: relative;
+margin-left: 1100px;
+margin-top: -200px;
+}
+.img_redes{
+display: flex;
+justify-content: center;
+max-height: 5px;
+}
+.font-white{
+color:white;
+}
+#social_icons{
+cursor:pointer;
+
+}
+#social_icons li a:hover{
+opacity: 0.50;
+
+}
+#body_activ{
+display:flex;
+justify-content:center;
+height: 550px;
+
 }
