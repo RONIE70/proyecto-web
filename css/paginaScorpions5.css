@@ -146,8 +146,24 @@ body {
    margin: auto;
     max-width: 1000px;
     justify-content: space-around;
-}    
+}  
+.text_tarjetas{
+    display: flex;
+    justify-content: space-between;
+}  
 
+.text_tarjetas1{
+    font-family: Titillium Web;
+    margin-left: 20%;
+    line-height: 25%;
+}
+.text_tarjetas2{
+    font-family: 'Satisfy', cursive;
+    margin-right: 20%;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top:-4%;
+}
     footer{
         background-color:black;
         max-width: 1000px;

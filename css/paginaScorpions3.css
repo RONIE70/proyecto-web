@@ -142,6 +142,15 @@ body {
     background-color: #A0DE54;
 }
 
+.registro{
+    display: flex;
+    justify-content:space-between ;
+    max-width: 100%;
+}
+.registro_logo1{
+    width: 50%;
+    height: 50%;
+}
 .login {
     background-color: rgb(41, 145, 243);
     width: 40%;
@@ -197,6 +206,10 @@ input[type=button]{
 
 .conerror{
     border: 1px solid rgb(226, 29, 29);
+}
+#Abrir{
+    max-width: 100%;
+    margin: auto;
 }
 
 #Abrir img {
